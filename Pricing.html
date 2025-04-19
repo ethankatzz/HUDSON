@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HUDSON Pricing</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background-color: #0f0f0f;
+      color: #f0f0f0;
+      font-family: 'Inter', sans-serif;
+      margin: 0;
+    }
+    header, footer {
+      background: #121212;
+      padding: 1.5rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #2a2a2a;
+    }
+    .logo {
+      height: 36px;
+    }
+    nav a {
+      color: #f0f0f0;
+      margin-left: 2rem;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    nav a:hover {
+      color: #ffaa00;
+    }
+    .main {
+      padding: 4rem 2rem;
+      text-align: center;
+    }
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 2rem;
+    }
+    .plans {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 2rem;
+    }
+    .plan {
+      background: #181818;
+      padding: 2rem;
+      border-radius: 12px;
+      width: 280px;
+      box-shadow: 0 0 12px rgba(0,0,0,0.4);
+    }
+    .plan h2 {
+      color: #ffaa00;
+      margin-bottom: 0.5rem;
+    }
+    .plan p {
+      color: #ccc;
+      margin-bottom: 1rem;
+    }
+    .price {
+      font-size: 2rem;
+      font-weight: 800;
+      margin: 1rem 0;
+    }
+    .btn {
+      background: #ffaa00;
+      color: #121212;
+      padding: 0.6rem 1.2rem;
+      border-radius: 6px;
+      font-weight: 700;
+      text-decoration: none;
+      display: inline-block;
+      margin-top: 1rem;
+    }
+    .btn:hover {
+      background: #ffcc55;
+    }
+    footer {
+      font-size: 0.9rem;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="HUDSON Logo" class="logo">
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="features.html">Features</a>
+      <a href="waitlist.html">Join</a>
+    </nav>
+  </header>
+
+  <div class="main">
+    <h1>Simple, Transparent Pricing</h1>
+    <div class="plans">
+      <div class="plan">
+        <h2>Starter</h2>
+        <p>Great for exploring HUDSON</p>
+        <div class="price">$0</div>
+        <p>- Real-time quotes<br>- Limited scanner access</p>
+        <a href="waitlist.html" class="btn">Get Started</a>
+      </div>
+
+      <div class="plan">
+        <h2>Pro</h2>
+        <p>Best for active retail traders</p>
+        <div class="price">$29/mo</div>
+        <p>- Full terminal access<br>- Smart alerts<br>- Earnings + macro tools</p>
+        <a href="waitlist.html" class="btn">Join Now</a>
+      </div>
+
+      <div class="plan">
+        <h2>Elite</h2>
+        <p>Advanced for power users</p>
+        <div class="price">$99/mo</div>
+        <p>- Backtesting engine<br>- API access<br>- Priority support</p>
+        <a href="waitlist.html" class="btn">Upgrade</a>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <img src="logo.png" alt="HUDSON Logo" class="logo">
+    <div>&copy; 2025 HUDSON Terminal — 30 Hudson Yards, New York, NY</div>
+  </footer>
+</body>
+</html>

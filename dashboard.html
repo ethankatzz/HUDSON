@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HUDSON Dashboard</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background-color: #0f0f0f;
+      color: #f0f0f0;
+    }
+    header, footer {
+      background-color: #121212;
+      padding: 1.5rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #2a2a2a;
+    }
+    .logo {
+      height: 36px;
+    }
+    nav a {
+      color: #f0f0f0;
+      margin-left: 2rem;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    nav a:hover {
+      color: #ffaa00;
+    }
+    .main {
+      padding: 4rem 2rem;
+      text-align: center;
+    }
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+    p {
+      color: #ccc;
+      max-width: 700px;
+      margin: 0 auto 2rem;
+    }
+    .screenshots {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 2rem;
+    }
+    .screenshot {
+      background-color: #1e1e1e;
+      border-radius: 10px;
+      padding: 1rem;
+      box-shadow: 0 0 10px rgba(0,0,0,0.4);
+      width: 320px;
+    }
+    .screenshot img {
+      width: 100%;
+      border-radius: 6px;
+    }
+    .screenshot h3 {
+      margin-top: 1rem;
+      color: #ffaa00;
+      font-size: 1.1rem;
+    }
+    footer {
+      font-size: 0.9rem;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="HUDSON Logo" class="logo">
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="features.html">Features</a>
+      <a href="pricing.html">Pricing</a>
+      <a href="waitlist.html">Join</a>
+    </nav>
+  </header>
+
+  <div class="main">
+    <h1>HUDSON Terminal Preview</h1>
+    <p>A sneak peek into the modern trading workspace built for retail edge. Your Bloomberg, reimagined.</p>
+    <div class="screenshots">
+      <div class="screenshot">
+        <img src="mockup-terminal-1.png" alt="Terminal Dashboard Preview">
+        <h3>Market Dashboard</h3>
+      </div>
+      <div class="screenshot">
+        <img src="mockup-terminal-2.png" alt="Trade Scanner Preview">
+        <h3>Trade Scanner</h3>
+      </div>
+      <div class="screenshot">
+        <img src="mockup-terminal-3.png" alt="Backtesting Tool">
+        <h3>Backtesting Tool</h3>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <img src="logo.png" alt="HUDSON Logo" class="logo">
+    <div>&copy; 2025 HUDSON Terminal — 30 Hudson Yards, New York, NY</div>
+  </footer>
+</body>
+</html>
